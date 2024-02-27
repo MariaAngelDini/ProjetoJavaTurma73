@@ -6,12 +6,7 @@ public class ExercicioPratica1 {
 
 	public static void main(String[] args) {
 		
-		int v1;
-		int v2;
-		int soma;
-		int dif;
-		int mult;
-		int div;
+		int v1, v2, soma, dif, mult, div;
 		
 		Scanner leia = new Scanner(System.in);
 		
