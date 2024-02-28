@@ -8,7 +8,7 @@ public class ExercicioPraticaSwitch1 {
 	public static void main(String[] args) {
 		
 		int opcao;
-		float quantidade;
+		int quantidade;
 		float valortotal;
 		
 		Scanner leia = new Scanner(System.in);
