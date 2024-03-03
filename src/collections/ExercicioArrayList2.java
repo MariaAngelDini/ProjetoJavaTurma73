@@ -31,6 +31,7 @@ public class ExercicioArrayList2 {
 		Scanner leia = new Scanner(System.in);
 		
 		int numero;
+		
 		//lê o numero a ser procurado na lista
 		System.out.println("Digite o número a ser encontrado:");
 		numero = leia.nextInt();
