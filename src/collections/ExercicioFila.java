@@ -11,6 +11,7 @@ public class ExercicioFila {
 		
 		int opcao;
 		
+		//faça isso repetidamente enquanto a opcao for diferente de 0
 		do {
 
 		System.out.println("---------- Menu ----------");
@@ -31,17 +32,20 @@ public class ExercicioFila {
 		case 1:
 			System.out.println("\nInsira o nome do cliente:");
 			nome = leia.next();
+			//metodo para adicionar o elemento na fila
 			fila.offer(nome);
             System.out.println("Cliente adicionado à fila com sucesso.");
 			break;
 		
 			
 		case 2:
+			//metodo para ver se a fila está vazia
 			if (fila.isEmpty()) {
 				System.out.println("A fila está vazia.");
 			}
 			else {
 				System.out.println("Clientes na fila:");
+				//for each- mostra os nomes na fila um por um
 				for (String cliente : fila) {
 					System.out.println(cliente);
 				}
@@ -52,6 +56,7 @@ public class ExercicioFila {
              if (fila.isEmpty()) {
                  System.out.println("A fila está vazia.");
              } else {
+            	 //metodo para remover o primeiro objeto da fila
                  String clienteChamado = fila.poll();
                  System.out.println("Cliente chamado: " + clienteChamado);
              }

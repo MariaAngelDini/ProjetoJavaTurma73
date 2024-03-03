@@ -26,6 +26,7 @@ public class ExercicioPilha {
 			case 1:
 				System.out.println("Insira o nome do livro:");
 				String livro = leia.next();
+				//metodo para adicionar objetos na pilha
 				pilha.push(livro);
 				System.out.println("Livro adicionado à fila com sucesso.");
 				break;
@@ -36,6 +37,7 @@ public class ExercicioPilha {
 				}
 				else {
 					System.out.println("Livros na pilha:");
+					//laço de repetição for each para mostrar os objetos da pilha
 					for (String livros : pilha) {
 						System.out.println(livros);
 					}
@@ -47,6 +49,7 @@ public class ExercicioPilha {
 					System.out.println("A pilha está vazia.");
 				}
 				else {
+					//remove o objeto no topo da pilha
 					System.out.println("Livro removido: " + pilha.pop());
 				}
 				break;
